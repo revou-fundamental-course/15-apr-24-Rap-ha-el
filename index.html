@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+            <meta charset="=UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/style.css">
+            <title>Temperature Converter</title>
+    </head>
+
+    <body>
+        <main>
+            <header class="global main-title">
+                <h1>Temperature Converter</h1>
+            </header>
+    
+            <section class="main-section">
+                <!-- Section Introduction -->
+    
+                <div id="c-to-f">
+                    <section class="section-Celcius">
+                    <header>
+                        <h4 class="section-menu">Celcius (&deg;C)</h4>
+                    </header>
+                    
+                    <article>
+                        <textarea rows="1" id="c-to-f-input"></textarea>
+
+                        <div class="container-button">
+                            <button id="button-convert" oneclick="">Convert</button>
+                            <button id="button-reset">Reset</button>
+                            <button id="button-reverse" onclick="reverse();">Reverse</button>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="section-Farenheit">
+                    <header>
+                        <h4 class="section-menu">Fahrenheit (&deg;F)</h4>
+                    </header>
+                    
+                    <article>
+                        <textarea rows="1"></textarea>
+
+                    </article>
+                </section>
+            </div>
+
+            <div id="f-to-c">
+            <section class="section-Farenheit">
+                <header>
+                    <h4 class="section-menu">Fahrenheit (&deg;F)</h4>
+                </header>
+                
+                <article>
+                    <textarea rows="1"></textarea>
+
+                </article>
+            </section>
+
+            <section class="section-Celcius">
+                <header>
+                <h4 class="section-menu">Celcius (&deg;C)</h4>
+                </header>
+                
+                <article>
+                    <textarea rows="1"></textarea>
+
+                    <div class="container-button">
+                        <button id="button-convert">Convert</button>
+                        <button id="button-reset">Reset</button>
+                        <button id="button-reverse" onclick="reverse();">Reverse</button>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+                <section class="section-Result">
+                    <header>
+                        <h4 class="section-menu">Cara Kalkulasi (&deg;C)</h4>
+                    </header>
+                    
+                    <article>
+                        <textarea rows="1"></textarea>
+
+                    </article>
+                </section>
+
+                <section class="section-explaination">
+                    <header>
+                        <h4 class="Font-family">Cara Konversi dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h4>
+                        <hr>
+                        <p class="Font-family">Suhu S dalam derajat Fahrenheit(&deg;F) sama dengan suhu S dalam derajat Celcius (&deg;C) kali 9/5 tambah 32.
+                        </p>
+                    </header>
+                    <article>
+                        <h2 class="formula-s">S<sub>(&deg;F)</sub>=(S<sub>(&deg;C)</sub> x 9/5) + 32</h2>
+
+                        <pc class="Font-family">atau</p>
+
+                        <h2 class="formula-s">S<sub>(&deg;F)</sub>=(S<sub>(&deg;C)</sub> x 1.8) + 32</h2>
+                    </article>
+                </section>
+            </section>
+                
+        </main>
+    </body>
+<script src="js/script.js"></script>
+</html>
